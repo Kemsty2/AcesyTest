@@ -1,9 +1,9 @@
-##Prérequis
+## Prérequis
 
 - Minikube installé
 - Docker installé
 
-##Liste des Commandes Que j'ai utilisé
+## Liste des Commandes Que j'ai utilisé
 
 #### Clone the repository
 `git clone {repository_remote_url}`
@@ -25,7 +25,7 @@
 - `sudo kubctl proxy, faire pointer mon cluster vers localhost:8001`
 -  `je recupère l'adresse ip puis je lance`
 
-####Conclusion
+#### Conclusion
 - J'ai obtenu aucun resultat, ni le dashboard, ni owncloud ne veut s'afficher sur mon navigateur. 
 - Si demain tu es à l'ecole, tu peux passer on fait le TP ensemble?
 
