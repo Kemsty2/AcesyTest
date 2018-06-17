@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: owncloud-deployment
+  labels:
+    app: owncloud
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: owncloud
+  template:
+    metadata:
+      labels:
+        app: owncloud
+    spec:
+      containers:
+      - name: owncloud
+        image: owncloud:latest
+        ports:
+        - containerPort: 80
